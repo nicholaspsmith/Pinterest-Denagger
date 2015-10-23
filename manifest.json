@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Pinterest De-Nagger",
+  "version": "0.1",
+  "icons": {
+    "16": "denagger16.png",
+    "48": "denagger48.png",
+    "128": "denagger128.png"
+  },
+  "content_scripts": [
+  {
+    "matches": [
+      "http://pinterest.com/*",
+      "http://www.pinterest.com/*",
+      "https://pinterest.com/*",
+      "https://www.pinterest.com/*"
+    ],
+    "js": ["content.js"]
+  }
+]
+}
