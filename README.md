@@ -1,6 +1,8 @@
 Pinterest De-Nagger
 =====
 
+![alt tag](https://raw.githubusercontent.com/nicholaspsmith/Pinterest-Denagger/master/denagger128.png)
+
 I was looking at mens clothes on Pinterest and the nag trying to get me to sign up was blocking my view. I kept manually removing it from the DOM but I realized it would be much easier to write a simple plugin that would do it for me.
 ``
 TADA: Pinterest De-Nagger.
