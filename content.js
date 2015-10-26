@@ -3,7 +3,7 @@ function init() {
   setInterval(removeNags,2000);
   window.onhashchange = change;
 
-  //and read location.hash in the change function instead
+  // this doesnt work
   function change(){
     var hash = location.hash;
     removeNags();
@@ -11,11 +11,10 @@ function init() {
 }
 
 function removeNags() {
-  console.log('removeNags');
   var nags = document.getElementsByClassName('Nags');
   var modals = document.getElementsByClassName('Modal');
   // Re-enable scrolling
-  document.getElementsByTagName('body')[0].class = "";
+  document.getElementsByTagName('body')[0].className = "";
   if (nags.length > 0|| modals.length > 0) {
     // alert user
     var message = document.createElement("div");
