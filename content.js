@@ -13,8 +13,6 @@ function init() {
 function removeNags() {
   var nags = document.getElementsByClassName('Nags');
   var modals = document.getElementsByClassName('Modal');
-  // Re-enable scrolling
-  document.getElementsByTagName('body')[0].className = "";
   if (nags.length > 0|| modals.length > 0) {
     // alert user
     var message = document.createElement("div");
@@ -35,7 +33,9 @@ function removeNags() {
 
     setTimeout(function(){
       message.parentNode.removeChild(message);
-    },4000);
+      // Re-enable scrolling
+      document.getElementsByTagName('body')[0].className = "";
+    }, 3000);
   }
   for (var n=0;n<nags.length;n++) {
     nags[n].remove();
