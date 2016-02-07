@@ -1,6 +1,6 @@
 function init() {
   removeNags();
-  setInterval(removeNags,2000);
+  setInterval(removeNags,1900);
   window.onhashchange = change;
 
   // this doesnt work
