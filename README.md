@@ -15,8 +15,8 @@ Instructions:
     2. Click on Settings, then Extensions
     3. Click "Load unpacked extension..."
     4. Select the folder you just cloned
-    5. ???
-    6. Profit
+    5. Browse Pinterest without being nagged to join. 
+    6. Vaya con dios
 
 
 
